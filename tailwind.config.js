@@ -4,7 +4,30 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    fontFamily: {
+      'Anton': ['Anton', 'sans-serif'],
+      'Nunito': ['Nunito Sans', 'sans-serif'],
+    },
+    colors: {
+      'myGreen': '#3AAFB9',
+      'myBlack': '#23272A',
+    },
     extend: {},
+    textColor: {
+      'myGreen': '#3AAFB9',
+      white: "#FFF",
+    },
+    screens: {
+      '2xl': {'max': '1400px'},
+
+      'xl': {'max': '1279px'},
+
+      'lg': {'max': '1023px'},
+
+      'md': {'max': '767px'},
+
+      'sm': {'max': '639px'},  
+      },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
