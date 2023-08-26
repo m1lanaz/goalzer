@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 flex justify-around py-10px bg-myGreen">
+    <div className="navbar bg-base-100 flex justify-around py-10px bg-myGreen pt-10">
       <div className="text-2xl font-Nunito font-extrabold text-white">
         GoalZer
       </div>

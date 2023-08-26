@@ -11,6 +11,7 @@ module.exports = {
     colors: {
       'myGreen': '#3AAFB9',
       'myBlack': '#23272A',
+      'white': '#FFF',
     },
     extend: {},
     textColor: {
