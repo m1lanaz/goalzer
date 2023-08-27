@@ -4,7 +4,7 @@ import { FaUserAlt, FaPen, FaCalendarCheck, FaCheck } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <div >
+    <div>
       <Navbar />
       <div className="flex flex-col items-center bg-myGreen">
         <h1 className="font-Nunito text-white font-extrabold text-7xl pt-20 xl:text-center mx-5">
@@ -67,8 +67,10 @@ const Home = () => {
           -Brian Tracey
         </p>
       </div>
-      <div className="bg-white m-14 flex justify-center">
-        <div className="bg-myBlack w-8/12 text-white p-10 rounded-3xl text-center">
+      <div className="bg-white m-14 flex justify-center ">
+        <div
+          className="text-myBlack bg-white w-full p-2 text-center"
+        >
           <p>
             We use multiplke methods that have been tested and gkjdfhkgduf
             fjgdkfigu fgjhfgd fgifg ihfgif hg gihfg difgh ifhgd ifg dfghdifgoie

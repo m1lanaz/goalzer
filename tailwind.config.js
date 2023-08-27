@@ -16,7 +16,8 @@ module.exports = {
     extend: {},
     textColor: {
       'myGreen': '#3AAFB9',
-      white: "#FFF",
+      'white': "#FFF",
+      'myBlack': '#23272A',
     },
     screens: {
       '2xl': {'max': '1400px'},
